@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+
+}
+div {
+  box-sizing: border-box;
+}
+* {
+  font-family: poppins!important;
+}
+/* .jokes-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+} */
+.empire-text-container {
+  text-align: justify;
+  font-size: 4.3vw;
+  font-family: 'bebas'!important;
+  width: 100vw;
+}
+
+.empire-text-container:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.empire-text {
+  font-family: 'bebas'!important;
+  color: #fff4de36;
+  font-size: 100vh;
+}
+
+.hero-container {
+	background: linear-gradient(-45deg, #f94b1b, #f9b21b, #f7931e, #fff4de);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	/* height: 100vh; */
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-container {
+  width: 480px;
+}
+
+@media screen and (min-width: 640px) {
+  .swiper-container {
+    width: 640px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 768px;
+  }
+}
